@@ -12,10 +12,9 @@
         <ul>
           <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
           <li><a href="<?php echo base_url('home/about'); ?>">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="<?php echo base_url('home/portofolio'); ?>">Portfolio</a></li>
+          <li><a href="<?php echo base_url('home/team'); ?>">Team</a></li>
+          <li><a href="<?php echo base_url('blog'); ?>">Blog</a></li>
           <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -33,7 +32,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="<?php echo base_url('home/contact'); ?>">Contact Us</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 

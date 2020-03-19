@@ -73,7 +73,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span><?php echo $main_title?></span></strong>. All Rights Reserved
+        &copy; <span><script>document.write(new Date().getFullYear())</script></span> Copyright <strong><span><?php echo $main_title?></span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
