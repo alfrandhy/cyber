@@ -12,5 +12,5 @@
 		Otherwise, it will send it all in the single form field.
 		
 		print_r(\$_POST);
-	";	
-	print_r($_POST);
+	";
+print_r($_POST);

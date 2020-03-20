@@ -4,17 +4,17 @@ use CodeIgniter\Model;
 
 class ProductModel extends Model
 {
-    protected $table;
+	protected $table;
 
-    public function __construct()
-    {
-        parrent::__construct();
-        $db = \Config\Database::connect();
-        $this->table = $this->db->table('products');
-    }
+	public function __construct()
+	{
+		parrent::__construct();
+		$db          = \Config\Database::connect();
+		$this->table = $this->db->table('products');
+	}
 
-    public function get_product()
-    {
-        return $this->table->get()->getResultArray();
-    }
+	public function get_product()
+	{
+		return $this->table->get()->getResultArray();
+	}
 }
