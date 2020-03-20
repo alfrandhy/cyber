@@ -47,6 +47,10 @@ class Home extends BaseController
 				);
 		return view('layouts/base',$data);
 	}
+	public function admin()
+	{
+		return view('layouts/admin/test.php');
+	}
 
 	//--------------------------------------------------------------------
 
